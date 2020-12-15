@@ -1,0 +1,201 @@
+
+
+ /***************media quarice css code start***************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.who-we-are .titel h2 {
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+.who-we-are .titel p {
+    font-size: 8px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #a3b1bf;
+}
+.work .titel h2 {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #506a85;
+    margin-bottom: 10px;
+}
+.work .titel p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #a3b1bf;
+}
+.get-in-touch .titel h2 {
+    font-size: 39px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #506a85;
+    margin-bottom: 10px;
+}
+.get-in-touch .titel p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #a3b1bf;
+}
+
+.footer-section .widget p {
+    font-size: 10px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #72808f;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+ .footer-section .widget .form .form-control{
+  width: 100%;
+  background: #4a5c6c;
+  border: 1px solid #4e5c6c;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 18px 4px;
+}
+
+
+.footer-section .widget .form .btn-primary{
+  color: #fff;
+  background-color: #00bc9c;
+  border-color: #00bc9c;
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer-section .widget .form .btn-primary:hover{
+  background:transparent;
+  color: #00bc9c;
+  border: 1px solid #00bc9c;
+}
+.progressbar-section h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #000;
+}
+.progressbar-section h2 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 8px;
+    color: #000;
+}
+
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer-section .widget p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #72808f;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+ .footer-section .widget .form .form-control{
+  width: 100%;
+  background: #4a5c6c;
+  border: 1px solid #4e5c6c;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 18px 4px;
+}
+
+
+.footer-section .widget .form .btn-primary{
+ color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-section .widget .form .btn-primary:hover{
+  background:transparent;
+  color: #00bc9c;
+  border: 1px solid #00bc9c;
+}
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+  
+ .footer-section .widget .form .form-control{
+  width: 100%;
+  background: #4a5c6c;
+  border: 1px solid #4e5c6c;
+  border-radius: 2px;
+  font-size: -7%;
+  padding: 18px 63%;
+}
+
+
+.footer-section .widget .form .btn-primary {
+    color: #fff;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    position: absolute;
+    right: 0%;
+    bottom: 41%;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-section .widget .form .btn-primary:hover{
+  background:transparent;
+  color: #00bc9c;
+  border: 1px solid #00bc9c;
+}
+.counter h4{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  color:#08c;
+}
+.get-in-touch {
+    width: 100%;
+    padding: 9px 0px;
+    background: #ffffff;
+}
+}
